@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        border: 'hsl(var(--border) / <alpha-value>)',
+        background: 'hsl(var(--background) / <alpha-value>)',
+        foreground: 'hsl(var(--foreground) / <alpha-value>)',
+        card: 'hsl(var(--card) / <alpha-value>)',
+        "card-foreground": 'hsl(var(--card-foreground) / <alpha-value>)',
+        ring: 'hsl(var(--ring) / <alpha-value>)',
+        primary: {
+          50: '#f0f9f7',
+          100: '#d0f3ed',
+          200: '#a0e8dd',
+          300: '#70dccc',
+          400: '#40d1bc',
+          500: '#1abc9c',
+          600: '#16a085',
+          700: '#138d77',
+          800: '#0f7c6b',
+          900: '#0a4d42',
+          DEFAULT: 'hsl(var(--primary) / <alpha-value>)',
+          foreground: 'hsl(var(--primary-foreground) / <alpha-value>)',
+        },
+        secondary: {
+          50: '#f3e8ff',
+          100: '#e9d5ff',
+          200: '#d8b4fe',
+          300: '#c084fc',
+          400: '#a855f7',
+          500: '#9333ea',
+          600: '#7e22ce',
+          700: '#6b21a8',
+          800: '#581c87',
+          900: '#3f0f5c',
+          DEFAULT: 'hsl(var(--secondary) / <alpha-value>)',
+          foreground: 'hsl(var(--secondary-foreground) / <alpha-value>)',
+        },
+        blue: {
+          50: '#f0f7ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          300: '#7dd3fc',
+          400: '#38bdf8',
+          500: '#0ea5e9',
+          600: '#0284c7',
+          700: '#0369a1',
+          800: '#075985',
+          900: '#0c4a6e',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      borderRadius: {
+        lg: '0.5rem',
+      },
+    },
+  },
+  plugins: [],
+}

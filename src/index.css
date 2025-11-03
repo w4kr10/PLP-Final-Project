@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+  --border: 214.3 31.8% 91.4%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+  --primary: 167.3 83.1% 38%;
+  --primary-foreground: 0 0% 100%;
+  --ring: 167.3 83.1% 38%;
+  --secondary: 270 61% 50%;
+  --secondary-foreground: 0 0% 100%;
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: rgb(26, 188, 156);
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(22, 160, 133);
+  }
+  
+  .btn-secondary {
+    background-color: rgb(229, 231, 235);
+    color: rgb(17, 24, 39);
+  }
+  
+  .btn-secondary:hover {
+    background-color: rgb(209, 213, 219);
+  }
+  
+  .card {
+    border-radius: 0.5rem;
+    border: 1px solid rgb(229, 231, 235);
+    background-color: white;
+    color: rgb(17, 24, 39);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+}
