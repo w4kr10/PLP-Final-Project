@@ -469,6 +469,15 @@ npm test
 ---
 
 ## 🚢 Deployment
+https://mcaid.netlify.app/
+
+<img width="1864" height="944" alt="image" src="https://github.com/user-attachments/assets/4dc674f2-49a2-46bf-9f05-bd2ca15660b9" />
+
+Grocery Dashboard
+<img width="1417" height="765" alt="image" src="https://github.com/user-attachments/assets/ca825eb2-d07c-40b4-8bf7-f176fc9a24d3" />
+
+Medical Personnel Dashboard
+<img width="1554" height="815" alt="image" src="https://github.com/user-attachments/assets/5fd5112d-cf6e-4edf-ac52-65aa62a5dbe7" />
 
 
 ### Database
