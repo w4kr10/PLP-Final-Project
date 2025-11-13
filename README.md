@@ -480,8 +480,8 @@ Medical Personnel Dashboard
 <img width="1554" height="815" alt="image" src="https://github.com/user-attachments/assets/5fd5112d-cf6e-4edf-ac52-65aa62a5dbe7" />
 
 
-### Database
-Used MongoDB Atlas (cloud-hosted) for zero-maintenance database
+### Pitch Deck
+https://www.canva.com/design/DAGxzoqXFS8/qPGF6Qx8aokDOaF7MNsyMw/view?utm_content=DAGxzoqXFS8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha264332319
 
 ---
 
